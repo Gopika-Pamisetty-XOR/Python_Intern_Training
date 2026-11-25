@@ -3,9 +3,6 @@
 # def test_add_two_numbers():
 #     result = add(2,3)
 #     assert result == 5
-
-
-
 import pytest
 from calculator import add, subtract, multiply, divide
 

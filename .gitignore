@@ -1,16 +1,25 @@
-#Python cache files
+# Python bytecode & cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-#Pytest cache
+# Testing & report caches
 .pytest_cache/
+.coverage
+htmlcov/
+allure-results/
+allure-report/
+report.html
 
+# Virtual environments
 venv/
 .venv/
+python/
 env/
 
-
+# IDE & OS files
 .vscode/
+.idea/
 .DS_Store
+Thumbs.db
 python/
